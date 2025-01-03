@@ -14,9 +14,11 @@ h2 {
 }
 
 img {
-  max-width: 100%;
+  max-width: 80%;
   border-radius: 5px;
   margin-bottom: 20px;
+  display: block;
+  margin: auto;
 }
 
 a {
@@ -44,4 +46,10 @@ a button:hover {
 
 p {
   margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  img {
+    max-width: 100%;
+  }
 }
