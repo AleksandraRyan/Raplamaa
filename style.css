@@ -33,6 +33,7 @@ a button {
   transition: all 800ms;
   margin: auto;
   display: block;
+  color: aliceblue;
 }
 
 a button:hover {
