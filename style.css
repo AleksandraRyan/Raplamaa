@@ -124,14 +124,16 @@ footer a {
     row-gap: 5px;
   }
 
-  header {
-    justify-content: center;
-  }
-
   header .shop {
     background-color: rgb(4, 151, 236);
     color: aliceblue;
     border-radius: 30px;
     padding: 15px;
+  }
+}
+
+@media (max-width: 1240px) {
+  header {
+    justify-content: center;
   }
 }
