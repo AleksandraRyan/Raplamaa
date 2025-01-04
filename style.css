@@ -72,6 +72,10 @@ p {
     max-width: 100%;
   }
 
+  .image-2 {
+    width: 595px;
+  }
+
   .raplamaa {
     row-gap: 5px;
   }
