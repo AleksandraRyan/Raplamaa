@@ -10,15 +10,34 @@ body {
 }
 
 h2 {
-  margin-bottom: 10px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 img {
-  max-width: 80%;
+  max-width: 33%;
+  height: 330px;
+  object-fit: cover;
   border-radius: 5px;
   margin-bottom: 20px;
   display: block;
   margin: auto;
+}
+
+.raplamaa {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  text-align: center;
+  border-top: 3px solid rgb(15, 115, 229);
+  border-bottom: 3px solid rgb(15, 115, 229);
+  border-top-right-radius: 30px !important;
+  border-bottom-left-radius: 30px !important;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 a {
@@ -28,18 +47,18 @@ a {
 a button {
   padding: 7px 39px;
   background-color: rgb(8, 102, 203);
-  border: none;
+  border: orange solid 2px;
   border-radius: 2.5px;
   font-size: 16px;
   cursor: pointer;
   transition: all 800ms;
-  margin: auto;
-  display: block;
   color: aliceblue;
+  display: block;
+  margin: 20px auto;
 }
 
 a button:hover {
-  background-color: rgb(32, 131, 237);
+  background-color: rgb(91, 161, 240);
   color: rgb(30, 31, 32);
   text-decoration: overline;
 }
@@ -51,5 +70,9 @@ p {
 @media (max-width: 768px) {
   img {
     max-width: 100%;
+  }
+
+  .raplamaa {
+    row-gap: 5px;
   }
 }
