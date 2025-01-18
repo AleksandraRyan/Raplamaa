@@ -64,12 +64,17 @@ h2 {
 }
 
 p {
+  background: radial-gradient(
+    283px at 1.7% 8.6%,
+    rgb(141, 254, 235) 0%,
+    rgb(232, 176, 254) 90%
+  );
   text-align: center;
   border-top: 2px solid rgb(15, 115, 229);
   border-bottom: 2px solid rgb(15, 115, 229);
   border-top-right-radius: 30px !important;
   border-bottom-left-radius: 30px !important;
-  padding: 20px;
+  padding: 30px;
   border-radius: 5px;
 }
 
@@ -150,6 +155,10 @@ footer a {
 @media (max-width: 1240px) {
   header {
     justify-content: center;
+  }
+
+  header a {
+    text-decoration: none;
   }
 }
 
