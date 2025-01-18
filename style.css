@@ -48,7 +48,7 @@ h2 {
   text-align: center;
 }
 
-img {
+.raplamaa img {
   max-width: 33%;
   height: 330px;
   object-fit: cover;
@@ -98,6 +98,19 @@ a button:hover {
 
 p {
   margin-top: 10px;
+}
+
+/* Images */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.grid img {
+  width: 400px;
+  border-radius: 5px;
 }
 
 footer {
