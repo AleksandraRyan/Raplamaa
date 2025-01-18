@@ -101,6 +101,10 @@ footer a {
   header a {
     text-decoration: none;
   }
+
+  .grid img {
+    width: 300px;
+  }
 }
 
 @media (max-width: 485px) {
