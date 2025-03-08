@@ -164,6 +164,7 @@ footer a {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 5px;
+    margin-left: -20px;
   }
 
   .raplamaa img {
