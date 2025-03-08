@@ -2,6 +2,7 @@ body {
   box-sizing: border-box;
   padding: 30px;
   font-family: 'Poppins', serif;
+  background-color: black;
 }
 
 img {
@@ -37,7 +38,7 @@ header .shop {
 }
 
 header a:hover {
-  color: black;
+  color: aliceblue;
   text-decoration: underline;
 }
 
@@ -45,6 +46,7 @@ h2 {
   font-size: 30px;
   margin-bottom: 20px;
   text-align: center;
+  color: aliceblue;
 }
 
 /* Images */
