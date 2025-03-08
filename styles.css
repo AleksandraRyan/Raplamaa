@@ -3,6 +3,11 @@ body {
   padding: 30px;
   font-family: 'Poppins', serif;
 }
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
 header {
   display: flex;
   justify-content: flex-end;
@@ -44,23 +49,10 @@ h2 {
 
 /* Images */
 .container {
-  max-width: 1300px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  border-top: 2px solid red;
-  border-bottom: 2px solid red;
-  border-top-left-radius: 60px;
-  border-bottom-right-radius: 60px;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: auto;
-  padding: 20px;
-}
-
-.container img {
-  width: 400px;
-  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5px;
 }
 
 footer {
@@ -77,10 +69,6 @@ footer a {
 @media (max-width: 768px) {
   img {
     max-width: 100%;
-  }
-
-  .image-2 {
-    width: 595px;
   }
 
   .raplamaa {
