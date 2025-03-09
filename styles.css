@@ -57,6 +57,10 @@ h2 {
   gap: 5px;
 }
 
+figcaption {
+  color: aliceblue;
+}
+
 footer {
   text-align: center;
   font-weight: bold;
