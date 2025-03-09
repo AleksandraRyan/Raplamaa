@@ -111,4 +111,12 @@ footer a {
     padding: 8px;
     font-size: 13px;
   }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  figure figcaption {
+    text-align: center;
+  }
 }
