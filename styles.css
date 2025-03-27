@@ -2,7 +2,11 @@ body {
   box-sizing: border-box;
   padding: 30px;
   font-family: 'Poppins', serif;
-  background-color: black;
+  background: radial-gradient(
+    circle at 11.4% 50%,
+    rgb(255, 37, 174) 0%,
+    rgb(250, 237, 56) 90%
+  );
 }
 
 img {
@@ -38,7 +42,7 @@ header .shop {
 }
 
 header a:hover {
-  color: aliceblue;
+  color: rgb(66, 68, 70);
   text-decoration: underline;
 }
 
@@ -54,7 +58,8 @@ h2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 5px;
+  justify-content: space-evenly;
+  gap: 15px;
 }
 
 figcaption {

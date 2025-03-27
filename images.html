@@ -8,12 +8,23 @@
       name="keywords"
       content="Raplamaa, Estonia, frontend developer, frontend development"
     />
+
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
     />
     <title>Raplamaa</title>
   </head>
@@ -38,31 +49,48 @@
     </header>
     <h2>Raplamaa, Estonia &#128147;</h2>
     <div class="container">
-      <figure>
-        <img src="/photos/Kohila.jpg" alt="" />
-        <figcaption>Kohila</figcaption>
-      </figure>
-      <figure>
-        <img src="/photos/Kohila2.jpg" alt="" />
-        <figcaption>Kohila</figcaption>
-      </figure>
-      <figure>
-        <img src="/photos/Lake2.jpg" alt="" />
-        <figcaption>Kõnnu Järv</figcaption>
-      </figure>
-
-      <figure>
-        <img src="/photos/Rapla1.jpg" alt="" class="rapla" />
-        <figcaption>Rapla</figcaption>
-      </figure>
-      <figure>
-        <img src="/photos/Rapla.jpg" alt="" />
-        <figcaption>Rapla</figcaption>
-      </figure>
-      <figure>
-        <img src="/photos/Rapla3.jpg" alt="" />
-        <figcaption>Rapla</figcaption>
-      </figure>
+      <a
+        href="/photos/Kohila.jpg"
+        data-toggle="lightbox"
+        data-gallery="photo-gallery"
+      >
+        <img src="/photos/Kohila.jpg" alt="" class="img-fluid" />
+      </a>
+      <a
+        href="/photos/Kohila2.jpg"
+        data-toggle="lightbox"
+        data-gallery="photo-gallery"
+      >
+        <img src="/photos/Kohila2.jpg" alt="" class="img-fluid" />
+      </a>
+      <a
+        href="/photos/Lake2.jpg"
+        data-toggle="lightbox"
+        data-gallery="photo-gallery"
+      >
+        <img src="/photos/Lake2.jpg" alt="" class="img-fluid" />
+      </a>
+      <a
+        href="/photos/Rapla1.jpg"
+        data-toggle="lightbox"
+        data-gallery="photo-gallery"
+      >
+        <img src="/photos/Rapla1.jpg" alt="" class="rapla img-fluid" />
+      </a>
+      <a
+        href="/photos/Rapla.jpg"
+        data-toggle="lightbox"
+        data-gallery="photo-gallery"
+      >
+        <img src="/photos/Rapla.jpg" alt="" class="img-fluid" />
+      </a>
+      <a
+        href="/photos/Rapla3.jpg"
+        data-toggle="lightbox"
+        data-gallery="photo-gallery"
+      >
+        <img src="/photos/Rapla3.jpg" alt="" class="img-fluid" />
+      </a>
     </div>
     <footer>
       <h4>
@@ -75,5 +103,16 @@
       </h4>
       <h5>All Rights Reserved &copy;</h5>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
   </body>
 </html>
