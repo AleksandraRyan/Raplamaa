@@ -2,11 +2,6 @@ body {
   box-sizing: border-box;
   padding: 30px;
   font-family: 'Poppins', serif;
-  background: radial-gradient(
-    circle at 11.4% 50%,
-    rgb(255, 37, 174) 0%,
-    rgb(250, 237, 56) 90%
-  );
 }
 
 img {
@@ -56,21 +51,19 @@ h2 {
 /* Images */
 .container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-evenly;
   gap: 15px;
+  /* border: 1px solid black; */
+  margin: 40px 0;
 }
 
-figcaption {
-  color: aliceblue;
+.container a {
+  background-color: none;
 }
 
 footer {
   text-align: center;
-  font-weight: bold;
-  margin-top: 50px;
-  color: aliceblue;
 }
 
 footer a {
@@ -103,7 +96,7 @@ footer a {
   }
 
   .container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   header .shop {
@@ -123,9 +116,5 @@ footer a {
 
   .container {
     grid-template-columns: 1fr;
-  }
-
-  figure figcaption {
-    text-align: center;
   }
 }
